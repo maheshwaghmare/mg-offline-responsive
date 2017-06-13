@@ -1,0 +1,102 @@
+
+/* 		Heading		 */
+
+#mt_responsive h1, #mt_responsive h2 {
+color: #FF3F3F;
+float: left;
+font-family: sans-serif;
+margin: 10 0 0 0;
+padding: 0;
+}
+#mt_responsive h1 {
+  font-size: 42px;
+}
+.mt_top_bar {
+    border-bottom: 1px solid #FFB3B3;
+    height: 100px;
+    margin-bottom: 12px;
+}
+.site-form {
+    margin-left: 73px;
+}
+.site-form input#submit,
+.site-form input#url {
+    border: 1px solid #FF7A7A;
+    color: #FF7A7A;
+}
+
+#mt_responsive h2 {
+clear: both;
+font-family: sans-serif;
+font-size: 20px;
+font-weight: normal;
+margin: 0;
+padding: 0;
+text-align: left;
+}
+
+
+/*		Title		*/
+
+.mt_title {
+  float: left;
+  width: 570px;
+}
+
+
+/*		Controls		*/
+
+#mt_controls {
+  float: left;
+  width: 761px;
+}
+#mt_controls input:hover, .mt_active {
+    background-color: #FF4F4F;
+    border: 1px solid #D93333;
+    color: #FFFFFF;
+}
+#mt_controls input {
+  background-color: #F7F7F7;
+  border: 1px solid #CCCCCC;
+  color: #B4B4B4;
+  cursor: pointer;
+  margin-left: 0.2em;
+  margin-top: 1em;
+  padding: 0.4em 0.5em;
+}
+
+#mt_controls ul {
+  float: left;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#mt_controls ul li {
+  border: 1px solid #CCCCCC;
+  color: #8B8B8B;
+  float: left;
+  margin-bottom: 0.5em;
+  margin-right: 0.5em;
+  padding: 0.5em;
+}
+
+
+/*		Result		*/
+
+#result {
+  clear: both;
+  margin: 0 auto;
+  text-align: center;
+  -webkit-transition: all 1s ease-in-out 0s;
+     -moz-transition: all 1s ease-in-out 0s;
+      -ms-transition: all 1s ease-in-out 0s;
+       -o-transition: all 1s ease-in-out 0s;
+          transition: all 1s ease-in-out 0s;
+}
+
+#target {
+	border: 1px solid #CCCCCC;
+    width: 100%;
+	height: 80%;
+}

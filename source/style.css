@@ -1,0 +1,36 @@
+body {
+background-color: grey;
+}
+#logo { border:1px solid; height:300px; width:500px; margin:0px auto; background-color:#999999; }
+
+
+@media screen and (max-width: 960px) {
+body {
+	background-color: red;
+	}
+	#logo { border:1px solid; height:100px; width:340px; margin:0px auto; background-color:#9900CC; }
+}
+
+/****** FOR  768px ******/
+@media screen and (max-width: 768px) {
+	body {
+	background-color: orange;
+	}
+	#logo { border:1px solid; height:80px; width:300px; margin:0px auto; background-color: red; }
+}
+
+/* FOR  550px */
+@media screen and (max-width: 550px) {
+	body {
+	background-color: yellow;
+	}
+	#logo { border:1px solid; height:80px; width:300px; margin:0px auto; background-color: blue; }
+}
+
+
+/* FOR  320px */
+@media screen and (max-width: 320px) {
+body {
+background-color: green;
+}
+}
